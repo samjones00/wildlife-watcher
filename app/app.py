@@ -1,7 +1,7 @@
 import time, datetime, os, uuid, json
 from python_json_config import ConfigBuilder
 
-outputDirectory = None
+outputDirectory = ""
 
 def init():
     x = datetime.datetime.now()
